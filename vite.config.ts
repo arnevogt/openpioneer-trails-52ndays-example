@@ -44,7 +44,7 @@ export default defineConfig(({ mode }) => {
                 // Additional directories to include as html (must contain index.html files)
                 sites: [
                     "sites/empty",
-
+                    "sites/myapp",
                     // Include sample sites in the build
                     ...sampleSites
                 ],
